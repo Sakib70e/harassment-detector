@@ -15,9 +15,9 @@ pose = mp_pose.Pose()
 
 cap = cv2.VideoCapture(0)
 
-PROXIMITY_THRESHOLD = 100
-HAND_SPEED_THRESHOLD = 40
-RISK_ALERT_THRESHOLD = 90
+PROXIMITY_THRESHOLD = 80
+HAND_SPEED_THRESHOLD = 25
+RISK_ALERT_THRESHOLD = 70
 
 prev_left_wrist, prev_right_wrist = None, None
 
